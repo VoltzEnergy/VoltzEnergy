@@ -1,4 +1,8 @@
 /**
+ *Submitted for verification at BscScan.com on 2021-12-21
+*/
+
+/**
  *Submitted for verification at BscScan.com on 2021-03-25
 */
 
@@ -151,10 +155,10 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "HashBX";
-    _symbol = "HBX";
+    _name = "VOLTZ";
+    _symbol = "VOLTZ";
     _decimals = 18;
-    _totalSupply = 1000000000000000000000000000; // 50 thousand
+    _totalSupply = 888888888888000000000000000000; // 50 thousand
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
